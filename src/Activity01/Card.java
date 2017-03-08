@@ -47,7 +47,8 @@ public class Card {
 	 */
 	public String suit() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-   }
+            return this.suit;    
+        }
 
 	/**
 	 * Accesses this <code>Card's</code> rank.
@@ -55,6 +56,7 @@ public class Card {
 	 */
 	public String rank() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+            return this.rank;
 	}
 
    /**
@@ -63,6 +65,7 @@ public class Card {
 	 */
 	public int pointValue() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+            return this.pointValue;
 	}
 
 	/** Compare this card with the argument.
