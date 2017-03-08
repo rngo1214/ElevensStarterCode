@@ -3,11 +3,11 @@
  *
  * <code>Card</code> represents a playing card.
  */
-public class Card(String cardRank, String cardSuit, int cardPointValue) {
-        this.rank = cardRank;
+public class Card {
+        
+	/**this.rank = cardRank;
         this.suit = cardSuit;
         this.pointValue = cardPointValue;
-	/**
 	 * String value that holds the suit of the card
 	 */
 	private String suit;
@@ -35,6 +35,9 @@ public class Card(String cardRank, String cardSuit, int cardPointValue) {
 	 */
 	public Card(String cardRank, String cardSuit, int cardPointValue) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+            this.rank = cardRank;
+            this.suit = cardSuit;
+            this.pointValue = cardPointValue;
 	}
 
 
