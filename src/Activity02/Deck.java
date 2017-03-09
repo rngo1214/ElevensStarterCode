@@ -31,6 +31,14 @@ public class Deck {
 	 */
 	public Deck(String[] ranks, String[] suits, int[] values) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+            cards = new ArrayList<Card>();
+            for (int i = 0; i<ranks.length; i++){
+                for (String suitString : suits){
+                    cards.add(new Card(ranks[i], suitString, values[i]));
+                }
+            }
+            size = cards.size();
+            shuffle();
 	}
 
 
